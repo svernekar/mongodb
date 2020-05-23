@@ -1,0 +1,1 @@
+Relational databases uses the notion of databases into tables where each column reprsents a field and each riw represents a record.
