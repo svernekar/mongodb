@@ -1,1 +1,51 @@
 Relational databases uses the notion of databases into tables where each column reprsents a field and each riw represents a record.
+Tables are related to each other with foreign keys also called as common columns
+Scale-Up:
+Server 8gb-16gb..Distrinuted computing
+Structured data: str,int etc
+Unstructured data :facebook like ,xml
+
+Structured query language for definig and manipulating data
+Queries are focused on collection of documents-Mongodb,Cassandra,redis
+
+Radical Difference:
+it allows you to storerelated items in one "row" in the same table.
+Lack of scalability in RDBMS for OLTP applications(online transfer application)
+data integrity at all levels
+Speed,auto elasticity.
+
+Document based NOSQL:
+Deep nesting and complex structure
+Doc with doc with in doc
+
+Key-Value data base:
+Word-Meaning,no structure
+Quiclky saving basic information.
+
+A single instance of Mongo can hold multiple databases.
+Every doc had special key "_id"-->unique to collection
+Javascript shell and Mongochef
+Documnt:Key and associated values
+
+{"MFD":"Welcome to MONGODB"}
+key:"MFD"
+value"Welcomr.....
+
+
+
+Install mongodb
+make dir c:\data\db
+set the env path 
+restart the system
+
+go to terminal->mongo
+mongo shell opens,tyoe show dbs
+db.things.save({a:1,b:2})
+db.things.find()
+db.things.save({a:20,b:22,fruits:["orange","apple"]})
+db.things.find().pretty()
+db.things.insert({a:20,b:22,fruits:["orange","apple"]})
+db.things.remove({})
+db.things.drop()
+
+
