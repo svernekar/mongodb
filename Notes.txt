@@ -10,3 +10,23 @@ git config --global user.email xx@xx.com
 git config --get remote.origin.url
 git remote -v
 git remote set-url origin url
+
+git status --short                       
+git status  --long
+git status --show-stash
+git status --branch
+
+git diff                 show changes of the file not yet staged
+git diff --cached        show changes to staged file
+git diff head            show changs to staged and unstaged files
+git diff commitid1 commitid2   show the changes btween two commitids
+
+git blame file    list the date change and authors for a file
+git show file/commitid show the file changes for commitid or file
+
+git log       Show the patch introduced with each commit
+git log -p [file/commitid]   Show the patch introduced with each commit wrt to file/commitid
+git log -p -2   Show the patch introduced with last two commitids
+git log --pretty=online  Show commits in an alternate format. Option values include oneline, short, full, fuller, and format (where you specify your own format).
+git log --graph     Display an ASCII graph of the branch and merge history beside the log output.
+
