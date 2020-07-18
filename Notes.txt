@@ -1,0 +1,12 @@
+git init
+git clone url
+git config --list
+git config --list --show.origin
+git config --global --list
+git config  --local  --list
+git config --system  --list
+git config -l 
+git config --global user.email xx@xx.com
+git config --get remote.origin.url
+git remote -v
+git remote set-url origin url
